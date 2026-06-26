@@ -1,0 +1,19 @@
+# 以下字段会从远程服务器更新
+skip_sms_results:
+  - "跨省"
+  - "隧道"
+  - "大桥"
+  - "停车场"
+  - "二级路"
+  - "9901跨省"
+
+columns:
+  order_code: "工单编号"
+  result: "结果"
+  remark: "办结备注"
+  callback: "是否回电"
+  phone: "预留号码"
+  plate: "车牌号"
+
+screenshot_dir: "screenshots"
+mode: "production"
